@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:padding="20dp"
+    android:backgroundTint="#C2CDC2"
+    android:background="#C2CDC2"
+
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Colors">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_Horse"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:text="Horse"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:backgroundTint="#DF5CCE"
+            android:background="@drawable/border"/>
+
+        <TextView
+            android:id="@+id/tv_Camel"
+            android:layout_width="145dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_margin="25dp"
+            android:background="@drawable/border"
+            android:backgroundTint="#03F43F"
+            android:gravity="center"
+            android:text="Camel"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_lion"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:text="Lion"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:backgroundTint="#09FFE8"
+            android:background="@drawable/border"/>
+        <TextView
+            android:id="@+id/tv_Giraffe"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:text="Giraffe"
+            android:layout_margin="25dp"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:backgroundTint="#C887D3"
+            android:background="@drawable/border"/>
+    </LinearLayout>
+
+</LinearLayout>

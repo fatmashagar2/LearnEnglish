@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:layout_gravity="center"
+    android:backgroundTint="#C2CDC2"
+    android:background="#C2CDC2"
+    android:gravity="center"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:padding="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:orientation="horizontal"
+
+       android:padding="15dp"
+
+       android:layout_height="wrap_content">
+       <TextView
+           android:id="@+id/tv_color"
+           android:layout_width="150dp"
+           android:layout_height="150dp"
+           android:text="Colors"
+           android:textStyle="bold"
+
+           android:textSize="25dp"
+           android:paddingEnd="0dp"
+           android:gravity="center"
+          android:layout_marginEnd="20dp"
+           android:background="@drawable/border"
+           android:backgroundTint="#9AF55454"
+           />
+       <TextView
+           android:id="@+id/tv_number"
+           android:layout_width="150dp"
+           android:layout_height="150dp"
+           android:text="Number"
+           android:paddingRight="20dp"
+           android:textStyle="bold"
+           android:layout_marginRight="20dp"
+           android:textSize="25dp"
+           android:paddingEnd="0dp"
+           android:gravity="center"
+           android:layout_marginEnd="20dp"
+           android:background="@drawable/border"
+           android:backgroundTint="#B86DC5"
+           />
+
+
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+
+        android:padding="15dp"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="Family"
+            android:id="@+id/tv_family"
+            android:textStyle="bold"
+
+            android:textSize="25dp"
+            android:paddingEnd="0dp"
+           android:gravity="center"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/border"
+            android:backgroundTint="#6ECDC4"
+            />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="Animal"
+            android:textStyle="bold"
+            android:id="@+id/tv_animal"
+            android:textSize="25dp"
+            android:paddingEnd="0dp"
+           android:gravity="center"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/border"
+            android:backgroundTint="#D6A614"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
